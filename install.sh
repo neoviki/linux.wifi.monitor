@@ -1,4 +1,5 @@
 #!/bin/bash
+cd src
 APP_TO_RUN_ON_STARTUP="wifi.monitor"
 
 # Ensure rc.local exists and is executable

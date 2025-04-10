@@ -4,16 +4,10 @@ This is a simple bash script that continuously monitors the WiFi connection on a
 
 ## How to Install
 
-1. Clone or download this repository.
-2. Navigate to the `src` directory:
-   ```bash
-   cd src
-   ```
-3. Run the installation script:
-   ```bash
-   ./install.sh
-   ```
-   This will add the WiFi Monitor daemon (`wifi.monitor`) to the startup script, ensuring that it starts and runs on every reboot. The script will be added to `rc.local` to make sure it is executed automatically.
+```bash
+./install.sh
+```
+This will add the WiFi Monitor daemon (`wifi.monitor`) to the startup script, ensuring that it starts and runs on every reboot. The script will be added to `rc.local` to make sure it is executed automatically.
 
 
 ### Background
