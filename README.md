@@ -21,17 +21,3 @@ I wrote this script a while back when my WiFi card was loose, causing frequent c
 3. After a certain threshold (15 failed attempts), it restarts the WiFi connection by turning off and on the networking service.
 4. It logs the connection failures and restarts in `/tmp/wifi_monitor.log`.
 
-### Usage
-
-1. Clone or download this repository.
-2. Make the script executable:
-   ```bash
-   chmod +x wifi_monitor.sh
-   ```
-3. Run the script:
-   ```bash
-   ./wifi_monitor.sh
-   ```
-
-The script will keep running indefinitely and monitor the WiFi connection.
-
